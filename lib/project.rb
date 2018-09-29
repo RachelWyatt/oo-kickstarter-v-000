@@ -6,6 +6,10 @@ attr_accessor :title, :project, :backers
     @backers = []
   end
 
+  def backers
+    @backers = backers
+  end
+
   def add_backer(backer)
     @backers << backer
   end
