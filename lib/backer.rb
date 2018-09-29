@@ -8,7 +8,6 @@ attr_accessor :name, :backed_projects, :Project
 
   def back_project(Project)
     @backed_projects << Project
-
   end
 
 
