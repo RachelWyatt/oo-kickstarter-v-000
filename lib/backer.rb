@@ -11,7 +11,7 @@ attr_accessor :name, :backed_projects, :project, :backers
   end
 
   def add_name(name)
-    @backers << name unless @backers.name == name
+    @backers << name unless @backers.include?(name)
   end
 
 
