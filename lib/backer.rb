@@ -5,7 +5,7 @@ attr_accessor :name, :backed_projects, :project, :backers
     @name = name
     @backed_projects = []
     @backers = []
-    @backers << name
+    project.backers << name
   end
 
   def back_project(project)
