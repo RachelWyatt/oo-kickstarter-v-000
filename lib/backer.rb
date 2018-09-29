@@ -5,5 +5,9 @@ attr_accessor :name, :backed_projects
     @name = name
   end
 
+  def back_project
+
+  end
+
 
 end
